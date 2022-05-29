@@ -13,7 +13,7 @@ int findDuplicate(vector<int> &arr)
 
 	for (int i = 0; i < arr.size(); i++)
 	{
-		m1[arr[i]]++;
+		m1[arr[i]]++; 
 	}
 
 	int duplicateNumber = 0;
